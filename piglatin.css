@@ -1,0 +1,84 @@
+/* Global Stylings */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+/* Header Stylings */
+
+ .headerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.pigPicture {
+    max-width: 25%;
+    height: 25%;
+    margin: auto;
+}
+.title {
+    text-align: center;
+    font-size: 4rem;
+    font-family:Arial, Helvetica, sans-serif;
+}  
+
+/* Translate stylings */
+
+.translationSection {
+    margin-top: 2%;
+    background-color: rgb(238, 39, 188);
+    width: 100%;
+}
+
+.translationArea {
+    display: flex;
+  
+}
+
+.textArea {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    gap: 20px 5px;
+   
+}
+
+
+.translationHeader {
+    font-size: 3rem;
+    margin-top: 10%;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-bottom: 10%;
+    color: black;
+}
+
+.translationHeader, .button {
+    text-align: center;
+}
+
+ .text, .button, .translationHeader {
+    background-color: rgb(145, 238, 195);
+     padding: 15px;
+     border-radius: 5px;
+} 
+
+/* Output Stylings */
+ 
+.output {
+    margin-left: 15%;
+    margin-top: 5%;
+    color: antiquewhite;
+} 

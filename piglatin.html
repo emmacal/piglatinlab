@@ -1,0 +1,50 @@
+<!--
+		Author: 	Emma Callahan
+		Class:		WP1
+		Assignment: 	Lab2
+		Date:			11/15/21
+	-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="piglatin.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig Latin Translator</title>
+</head>
+
+<body>
+
+<!-- Header Section -->
+
+<div class="headerSection">
+    <h1 class="title">Pig Latin Translator</h1>
+    <img src="pigPicture.png" alt="pig picture" class="pigPicture" >
+</div>
+
+<!-- Translation Section -->
+
+<div class="translationSection">
+    <div class="container">
+        <form>
+            <div class="translationArea">
+                <div class="textArea">
+                    <label for="translationHeader" class="translationHeader">Type a phrase here</label>
+                    <textarea rows="7" cols="40"  class="text" id="text" type="text" placeholder="This text will be translated to Pig Latin"></textarea> 
+                    <a href="javascript: submit()" class="button">Translate!</a>
+                </div>
+                <div class="output" id="output"></div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <script src="piglatin.js"></script>
+</footer>
+
+</body>
+
+</html>
